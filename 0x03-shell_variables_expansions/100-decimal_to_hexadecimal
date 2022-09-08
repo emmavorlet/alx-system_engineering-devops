@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "> %d <\n" $Decimal
+echo 'ibase=16; $Decimal' | bc
